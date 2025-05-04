@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#textblock {
+    background-color: #00597b;
+    height: 100vh;
+}
+
+#textblock-container {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+#textblock-title {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+#textblock-content {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+}
+
+#textblock-footer {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    margin-bottom: 20px;
+
+}
+
+#textblock-devsense {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.animation, .animation_layer {
+    height: 1000px;
+}
+
+.animation {
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.animation_layer {
+    background-position: bottom center;
+    background-size: auto 1038px;
+    background-repeat: repeat-x;
+    width: 100%;
+    position: absolute;
+}
+
+
+#artback {
+    background-image: url(./assets/Parallax/Layer1.png);
+}
+
+#logoland {
+    background-image: url(./assets/Parallax/DizAlagaBranco.png);
+    background-size: 32%; 
+    background-repeat: no-repeat; 
+    background-position: 48% 20%;
+}
+
+#backwave {
+    background-image: url(./assets/Parallax/Back_Wave.png);
+}
+
+#midpoint {
+    background-image: url(./assets/Parallax/Mid-Point.png);
+}
+
+#boat {
+    background-image: url(./assets/Parallax/Boat.png);
+}
+
+#wavefront {
+    background-image: url(./assets/Parallax/Wave-Front.png);
+}
+
+#bigwave {
+    background-image: url(./assets/Parallax/Big_Wave.png);
+}
+
+#coverup {
+    background-image: url(./assets/Parallax/CoverUp.png);
+}

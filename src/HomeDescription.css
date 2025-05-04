@@ -1,0 +1,23 @@
+body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #fff;
+}
+
+p{
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: large;
+    color: #fff;
+}
+
+.description{
+    justify-content: left;
+    text-align: left;
+}

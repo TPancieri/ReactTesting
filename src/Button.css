@@ -1,0 +1,35 @@
+.logo-button-container {
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20; 
+}
+
+
+.logo-button:hover {  
+    border-color: #FFC300;
+    color: #000814;
+    background-color: #FFD60A;
+    transform: translateY(-1px) scale(1.02);
+}
+
+.logo-button:focus,
+.logo-button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.logo-button {
+    color: #000814;
+    border-radius: 10px; 
+    border: 1px solid transparent;
+    padding: 0.78em 1.56em; 
+    font-size: 1.3em; 
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #fffff9;
+    cursor: pointer;
+    transition: border-color 0.25s, transform 0.25s, background-color 0.25s;
+    z-index: 22;
+}
+

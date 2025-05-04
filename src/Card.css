@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.card {
+    color: #0a3361;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin: 10px;
+    max-width: 450px;
+    max-height: 350px;
+    display: inline-block;
+    display: flex;
+    align-items: stretch;
+    flex: 1 1 300px;
+}
+
+.cards-box {
+    padding: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+
+.cards-box:hover {
+    transform: translateY(-5px);
+}
+
+
+.card .card-image {
+    max-width: 60%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+.card .card-title{
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    margin: 0;
+    color: #0a3361;
+}
+
+.card .card-text{
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    color: #0a3361;
+    text-align: justify;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: stretch; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
