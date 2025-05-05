@@ -8,7 +8,7 @@ import './ParallaxElement.css';
 function ParallaxElement() {
     return (
     <Parallax pages={2.2} style={{ top: '0', left: '0' }} className="animation">
-        <ParallaxLayer offset={0} speed={0.25}>
+        <ParallaxLayer offset={0} speed={0.25} style={{backgroundColor:"#8bdcff"}}>
                 <Navbar />
             </ParallaxLayer>
             <ParallaxLayer offset={0.08} speed={0.25}>

@@ -4,7 +4,7 @@ function WaveElement(){
     return(
         <>
         <div className="wave-wrapper">
-        <Wave fill='#008ac3'
+        <Wave fill='#004a66'
             paused={false}
             style={{ display: 'flex' }}
             options={{
